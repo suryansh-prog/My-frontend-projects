@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    /* font-family: Arial, sans-serif;
+     */
+    width: 100%;
+  }
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.cursor{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: all linear 5s;
+
+}
+.cursor img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
